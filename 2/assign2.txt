@@ -1,0 +1,185 @@
+Vrishti Jain: 661983527
+
+
+For Different value of ridge, following observations are made: 
+FOR RIDGE constant VALUE 0.01: R2 is maximum and for values less than 0.01, r2 becomes approximately constant.
+Also, for values more than 0.01, value of r2 decreased, though not with significant change.
+("PM10","SO2","NO2","CO","O3","TEMP","PRES","DEWP","RAIN","WSPM","hour","PM2.5"
+So here "PM2.5" is the response variable.)
+The most significant/important variable is the variable A6-TEMP which has the Weight W6, as absolute value of its weight is maximum.
+Its value has not significantly changed for different values of ridge constant alpha. 
+
+----------------------------------------------------------------------------------------------
+
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 0.00000000001
+values of w_vector 
+            0
+0  -10.761967
+1    0.555621
+2    0.087536
+3    0.084174
+4    0.017954
+5    0.069334
+6   -1.454225
+7    0.014527
+8    1.344761
+9   -0.627452
+10   0.964828
+11  -0.073346
+L2 norm so weight vector  11.018251410027363
+sse for training [43044870.35349843]
+r2 for training  [0.8338365]
+sse for test [42287648.42075276]
+r2 for test [0.82027033]
+
+----------------------------------------------------------------------------------------------
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 0.00001
+values of w_vector 
+            0
+0  -10.762068
+1    0.555621
+2    0.087536
+3    0.084174
+4    0.017954
+5    0.069334
+6   -1.454225
+7    0.014527
+8    1.344761
+9   -0.627451
+10   0.964829
+11  -0.073346
+L2 norm so weight vector  11.018349561064579
+sse for training [43044870.32876335]
+r2 for training  [0.8338365]
+sse for test [42287648.165467]
+r2 for test [0.82027033]
+
+
+----------------------------------------------------------------------------------------------
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 0.001
+83.33645619438741
+values of w_vector 
+            0
+0  -10.762973
+1    0.555621
+2    0.087536
+3    0.084174
+4    0.017954
+5    0.069334
+6   -1.454225
+7    0.014528
+8    1.344762
+9   -0.627437
+10   0.964839
+11  -0.073346
+L2 norm so weight vector  11.019233822851403
+sse for training [43044870.21522173]
+r2 for training  [0.8338365]
+sse for test [42287645.86511667]
+r2 for test [0.82027034]
+
+----------------------------------------------------------------------------------------------
+
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 0.01
+values of w_vector 
+            0
+0  -10.765148
+1    0.555621
+2    0.087537
+3    0.084175
+4    0.017954
+5    0.069334
+6   -1.454224
+7    0.014530
+8    1.344763
+9   -0.627405
+10   0.964863
+11  -0.073345
+L2 norm so weight vector  11.021358422696732
+sse for training [43044870.74705296]
+r2 for training  [0.8338365]
+sse for test [42287640.33494136]
+r2 for test [0.82027036]
+
+
+----------------------------------------------------------------------------------------------
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 0.1
+values of w_vector 
+            0
+0  -10.772026
+1    0.555621
+2    0.087537
+3    0.084176
+4    0.017954
+5    0.069334
+6   -1.454223
+7    0.014537
+8    1.344768
+9   -0.627301
+10   0.964937
+11  -0.073344
+L2 norm so weight vector  11.028078238311576
+sse for training [43044879.92011086]
+r2 for training  [0.83383646]
+sse for test [42287622.81437456]
+r2 for test [0.82027044]
+
+
+----------------------------------------------------------------------------------------------
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 10
+values of w_vector 
+            0
+0  -10.862785
+1    0.555620
+2    0.087544
+3    0.084191
+4    0.017954
+5    0.069332
+6   -1.454148
+7    0.014624
+8    1.344786
+9   -0.625618
+10   0.965558
+11  -0.073333
+L2 norm so weight vector  11.11669859932715
+sse for training [43046080.41715456]
+r2 for training  [0.83383183]
+sse for test [42287387.62958449]
+r2 for test [0.82027144]
+
+
+----------------------------------------------------------------------------------------------
+
+
+(base) moraine-3:Assignemnt_2 vrishtijain$ python assign2.py train.csv test.csv 100
+values of w_vector 
+            0
+0  -11.082405
+1    0.555624
+2    0.087543
+3    0.084198
+4    0.017955
+5    0.069318
+6   -1.453568
+7    0.014834
+8    1.344469
+9   -0.619228
+10   0.964405
+11  -0.073322
+L2 norm so weight vector  11.330836934159743
+sse for training [43057629.95046128]
+r2 for training  [0.83378724]
+sse for test [42286789.79384695]
+r2 for test [0.82027398]
+
+
+----------------------------------------------------------------------------------------------
+
+
+

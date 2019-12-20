@@ -1,0 +1,100 @@
+
+For Logistic Regression: 
+Best accuracy with eps = 0.01  eta = 0.01 and eps = 0.0001 eta = 0.0001 
+ 
+[[-1.9173687 ]
+ [ 5.3221583 ]
+ [ 2.22158795]
+ [ 1.07537799]
+ [-4.57237909]
+ [ 2.06227259]
+ [-0.29734431]
+ [-1.62848564]
+ [ 8.30801289]]
+eps = 0.01  eta = 0.01
+accuracy is  0.8543689320388349
+
+
+[[-1.94880467]
+ [ 5.31083202]
+ [ 2.21181982]
+ [ 1.06148642]
+ [-4.57645832]
+ [ 2.0587918 ]
+ [-0.31126896]
+ [-1.61978218]
+ [ 8.30265631]]
+
+eps = 0.0001 eta = 0.0001
+accuracy is  0.8543689320388349
+
+
+[[-5.6001137 ]
+ [ 7.11310341]
+ [ 3.94264096]
+ [ 2.26993834]
+ [-3.05567184]
+ [ 1.9490011 ]
+ [ 0.93071986]
+ [ 0.18992282]
+ [ 8.92988902]]
+
+eps = 0.0001 eta = 0.001
+accuracy is  0.8446601941747572
+
+ 
+[[-5.52062526]
+ [ 7.10424297]
+ [ 3.93208394]
+ [ 2.26961578]
+ [-3.07863966]
+ [ 1.94382299]
+ [ 0.92427374]
+ [ 0.1583524 ]
+ [ 8.92847204]]
+eps = 0.001 eta = 0.01
+accuracy is  0.8398058252427184
+
+
+
+
+
+________________________________________________________________________________________
+
+
+Kernel Ridge Regression
+
+For  linear kernel
+training accuracy : 78.51941747572816 %
+testing accuracy : 83.98058252427184 %
+________________________________________________________
+
+For  quadratic and c=5
+training accuracy : 87.13592233009709 %
+testing accuracy : 91.74757281553399 %
+
+
+For  quadratic kernel and c=3
+training accuracy : 87.13592233009709 %
+testing accuracy : 91.74757281553399 %
+
+_________________________________________________________
+
+Best testing accuracy for gaussian , spread = 1 and 0.5
+But with spread =0.5, training accuracy is more
+
+For  gaussian and spread =1
+training accuracy : 91.74757281553399 %
+testing accuracy : 95.14563106796116 %
+
+For  gaussian and spread = 0.5
+training accuracy : 95.26699029126213 %
+testing accuracy : 95.14563106796116 %
+
+For  gaussian and spread = 5
+training accuracy : 81.18932038834951 %
+testing accuracy : 85.43689320388349 %
+
+For  gaussian and spread = 2
+training accuracy : 99.63592233009709 %
+testing accuracy : 94.66019417475728 %
