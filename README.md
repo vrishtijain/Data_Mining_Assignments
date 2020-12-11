@@ -8,3 +8,4 @@ They are in Python language. <br />
 4: Neural Network: implementation  of MLP algorithm. <br />
 5: Dual SVM training based on SGA algorithm. <br />
 6: Expectation-Maximization Clustering algorithma and calculate purity score. <br />
+### hehe
